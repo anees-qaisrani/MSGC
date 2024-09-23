@@ -1,2 +1,4 @@
 # MSGC
 Molecule Structure Generation from Compound Name Using Python
+
+This project allows users to input the name of a chemical compound and automatically generate a 2D image of its molecular structure. By utilizing the PubChemPy library, the project retrieves the corresponding SMILES (Simplified Molecular Input Line Entry System) string for the given compound name. The RDKit library then converts the SMILES string into a visual representation of the molecule's structure, which is saved as an image file. This project demonstrates how chemical information databases and molecular visualization tools can be integrated into Python for quick, automated molecule generation and visualization. It is ideal for educational purposes, quick compound lookups, and generating chemical structures for reports or research.
